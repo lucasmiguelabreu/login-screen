@@ -9,7 +9,10 @@ body {
 
 
 .login-container {
-    width: 300px;
+    width: 80%;
+    /* Ajuste para tela de celular */
+    max-width: 300px;
+    /* Máximo de 300px */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,7 +30,8 @@ body {
 }
 
 input {
-    width: 95%;
+    width: 100%;
+    /* Alterado para ocupar 100% da largura */
     margin-bottom: 10px;
     padding: 8px;
     border: 1px solid #8c8c8c;
@@ -59,17 +63,16 @@ input {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .success-container img {
-    width: 15vw;
-    height: 30vh;
+    width: 60%;
+    max-width: 200px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.5);
-
 }
 
 .success-container p {
-    text-align: center;
     margin-top: 20px;
 }
