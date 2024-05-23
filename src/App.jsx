@@ -14,7 +14,7 @@ const App = () => {
         <Login onLoginSuccess={handleLoginSuccess} />
       ) : (
         <div className="success-container">
-          <img src="src/assets/verificado.png" alt="Login bem-sucedido" />
+          <img src="/src/assets/verificado.png" alt="Login bem-sucedido" />
           <p>Login Realizado com Sucesso!!</p>
         </div>
       )}
